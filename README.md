@@ -15,8 +15,8 @@ The goal of this project is to enhance road safety by providing drivers with rea
 * **Stable Video Inference:** Optimized for minimal flickering, ensuring consistent predictions across video frames.
 
 ## 🛠 Tech Stack & Methodology
-* **Core Languages:** `Python`, `C++` (for performance-critical parts)
-* **ML/DL Frameworks:** `TensorFlow`, `PyTorch`
+* **Core Languages:** `Python`
+* **ML/DL Frameworks:** `Logestic regresion`
 * **Computer Vision:** `OpenCV`
 * **Model:** **YOLO (You Only Look Once)** - Chosen for its superior real-time performance.
 
@@ -28,7 +28,8 @@ The goal of this project is to enhance road safety by providing drivers with rea
 Machine learning models, especially in complex computer vision tasks, are prone to overfitting, where they perform well on training data but fail on new, real-world scenarios. We tackled this by implementing robust **Regularization** techniques.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/nourhan255/VisionSafe-ADAS/main/assets/overfitting-fix.png" alt="Regularization Analysis Graph" height="200" style="margin-right: 15px;" />
+  <img width="1064" height="585" alt="Image" src="https://github.com/user-attachments/assets/3147c560-53f6-4e63-b03e-46bf06c5c11b" />
+style="margin-right: 15px;" />
   <p><em>Effect of Regularization: Generalizing the model (green curve) to trap the test data (red points).</em></p>
 </div>
 
@@ -36,7 +37,7 @@ Machine learning models, especially in complex computer vision tasks, are prone 
 For an ADAS system to be reliable, predictions must be consistent over a sequence of video frames. A noisy, flickering model is unusable. We analyzed the temporal stability of our model on real-world video data.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/nourhan255/VisionSafe-ADAS/main/assets/frame-predictions.png" alt="Temporal Prediction Stability Graph" height="200" />
+  <img width="1045" height="671" alt="Image" src="https://github.com/user-attachments/assets/949906f5-3699-4463-bbe4-8ab604131634" /> />
   <p><em>Consistency across 140+ frames, showing stable real-time inference.</em></p>
 </div>
 
