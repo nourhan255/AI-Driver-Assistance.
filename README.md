@@ -1,7 +1,7 @@
 # 🚘 VisionSafe-ADAS: AI Driver Assistance & Road Hazard Detection
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/nourhan255/VisionSafe-ADAS/main/assets/driver-assistance-detection.png" alt="Real-time Detection Sample" width="100%" />
+ <img width="997" height="517" alt="Image" src="https://github.com/user-attachments/assets/a1b3a01a-cd8b-4bfe-ad24-fb8c62827cd4" /> />
 </div>
 
 <br/>
